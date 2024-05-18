@@ -4,11 +4,11 @@ from json import dumps
 
 # Reddit credentials
 reddit = praw.Reddit(
-    client_id='zcMm_aEoHjaAelidRCsyjA',
-    client_secret='m8G_BXOnsDGtW0-sshU5YykAl519Bw',
-    user_agent='script by /u/Dogemuskelon',
-    username='Dogemuskelon',
-    password='sentiment@analysis'
+    client_id='YOUR_CLIENT_ID',
+    client_secret='YOUR_CLIENT_SECRET',
+    user_agent='script by /u/YOUR_USERNAME',
+    username='YOUR_USERNAME',
+    password='PASSWORD'
 )
 
 # Kafka producer
